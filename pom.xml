@@ -8,6 +8,10 @@
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
+    <properties>
+      <sonar.host.url>http://13.115.252.101:9000/</sonar.host.url>
+      <sonar.login>sqa_1d391ba789590c682e81c8a4e99e72ebe8a94b65</sonar.login>
+    </properties>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
